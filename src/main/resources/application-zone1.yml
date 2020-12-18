@@ -1,0 +1,10 @@
+server:
+  port: 8081
+  
+eureka: 
+  client:
+    region: zone1
+  instance:
+    metadataMap:
+      zone: zone1
+    
